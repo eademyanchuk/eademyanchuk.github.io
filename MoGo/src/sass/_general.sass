@@ -1,0 +1,97 @@
+header
+    position: relative
+    padding: 27px 0 
+    min-height: 1000px
+    background: url('../img/bg/bg_head.jpg') (center / cover) no-repeat
+    .header_logo
+        position: absolute
+        top: 27px
+        font-family: Montserrat
+        font-size: 30px
+        font-weight: 700
+        color: #ffffff
+        text-decoration: none
+        margin-left: 272px
+        cursor: pointer
+    .menu
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        margin: 12px 268px 0 852px
+        padding: 0
+        min-width: 620px
+        cursor: pointer
+        &_link
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+            color: #ffffff
+            text-decoration: none
+            +menu_hover
+    .subheader
+        &_logo
+            margin-top: 229px
+            text-align: center
+            font-family: 'Kaushan Script'
+            font-size: 72px
+            line-height: 1.2
+            font-weight: 400
+            color: #ffffff
+        &_sublogo
+            margin-top: 42px
+            text-align: center
+            font-family: Montserrat
+            font-size: 150px
+            line-height: 140px
+            font-weight: 700
+            text-transform: uppercase
+            color: #ffffff
+        &_divider
+            display: block
+            margin: 0 auto
+            margin-top: 71px
+            width: 60px
+            height: 3px
+            background-color: #ffffff
+        &_btn
+            display: block
+            margin: 0 auto
+            margin-top: 50px
+            width: 160px
+            height: 40px
+            background-color: rgba(0,0,0,0.0)
+            border: 3px solid #ffffff
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 700
+            text-transform: uppercase
+            color: #ffffff
+            cursor: pointer
+            +btn_hover
+    .menudown
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        margin: 0
+        margin-top: 157px 
+        &_link
+            opacity: 0.7
+            font-family: Montserrat
+            text-decoration: none
+            font-size: 18px
+            font-weight: 400
+            text-transform: uppercase
+            color: #ffffff
+            span
+                font-size: 24px
+                font-weight: 700
+            &::before
+                content: ''
+                display: block
+                margin-bottom: 25px
+                width: 280px
+                height: 3px
+                opacity: 0.5
+                background-color: #ffffff
+            +menudown_hover
